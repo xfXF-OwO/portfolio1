@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'ArgentPixelCF-Italic';
+    src: url('font/ArgentPixelCF-Italic.otf') format('opentype');
+}
+
+/* html, body{
+    height: 100%; width: 100%; margin: 0; padding: 0;
+} */
+
+div.bg{
+    background-image: url("../images/bg.jpg"); background-repeat: no-repeat; background-size: cover;
+    position: relative; width: 100vw; height: 100vh; margin: 0 auto;
+    object-fit: cover;
+}
+div h2{
+    font-family: 'ArgentPixelCF-Italic';
+    text-align: center; margin-bottom: 5%; 
+    padding-top: 30px; font-size: 8vh; color: white; text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+span{
+    width: 8%; display: block; 
+}
+span img{
+    max-width: 100%;
+}
+span h3{
+    font-family: 'ArgentPixelCF-Italic'; text-align: center; color: pink;
+}
+
+span:hover{
+    /* transition-duration: 1s; transform: translateY(-40px); */
+    animation: waddle infinite 2s linear;
+}
+@keyframes waddle{
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+}
+
+/* span.one{
+    position: absolute; top: 200px; left: 400px;
+}
+span.two{
+    position: absolute; top: 140px; left: 110px;
+}
+span.three{
+    position: absolute; top: 300px; left: 200px;
+}
+span.four{
+    position: absolute; top: 400px; left: 600px; width: 5%;
+}
+span.five{
+    position: absolute; top: 600px; left: 90px;
+}
+span.six{
+    position: absolute; top: 450px; left: 900px;
+}
+span.seven{
+    position: absolute; top: 120px; left: 1100px;
+}
+span.eight{
+    position: absolute; top: 600px; left: 1380px;
+}
+span.nine{
+    position: absolute; top: 220px; left: 750px;
+}
+span.ten{
+    position: absolute; top: 500px; left: 350px; 
+}
+span.eleven{
+    position: absolute; top: 400px; left: 1150px; width: 5%;
+}
+span.twelve{
+    position: absolute; top: 600px; left: 750px;
+}
+span.thirteen{
+    position: absolute; top: 280px; left: 1300px;
+}
+span.fourteen{
+    position: absolute; top: 620px; left: 1050px;
+} */
+
+span.one{
+    position: absolute; top: 25%; left: 40%;
+}
+span.two{
+    position: absolute; top: 18%; left: 8%;
+}
+span.three{
+    position: absolute; top: 34%; left: 23%;
+}
+span.four{
+    position: absolute; top: 62%; left: 63%; width: 5%;
+}
+span.five{
+    position: absolute; top: 74%; left: 6%;
+}
+span.six{
+    position: absolute; top: 50%; left: 85%;
+}
+span.seven{
+    position: absolute; top: 16%; left: 87%; 
+}
+span.eight{
+    position: absolute; top: 77%; left: 50%; width: 7%;
+}
+span.nine{
+    position: absolute; top: 27%; left: 75%;
+}
+span.ten{
+    position: absolute; top: 57%; left: 25%; 
+}
+span.eleven{
+    position: absolute; top: 49%; left: 44%; width: 5%;
+}
+span.twelve{
+    position: absolute; top: 79%; left: 77%;
+}
+span.thirteen{
+    position: absolute; top: 28%; left: 58%;
+}
+span.fourteen{
+    position: absolute; top: 78%; left: 32%;
+}
+span.fifteen{
+    position: absolute; top: 55%; left: 72%; width: 7%;
+}
+span.sixteen{
+    position: absolute; top: 42%; left: 11%; width: 4%;
+}
